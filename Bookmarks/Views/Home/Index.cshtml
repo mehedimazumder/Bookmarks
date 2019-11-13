@@ -13,10 +13,13 @@
 else
 {
     <div class="col-lg-9 col-md-8 col-sm-7">    
-        <h2>I'm not logged in</h2>
+        <h2>You are not logged in</h2>
+        <p>Please Log in first!</p>
     </div>
     <!--right column-->
-    <div class="col-lg-3 col-md-4 col-sm-5"></div>
+    <div class="col-lg-3 col-md-4 col-sm-5">
+        @Html.Partial("_RegisterUserPartial")
+    </div>
 }
 
 
