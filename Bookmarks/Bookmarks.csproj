@@ -176,6 +176,8 @@
     <Compile Include="Controllers\LinksController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Entities\Link.cs" />
+    <Compile Include="Extensions\HtmlExtensions.cs" />
+    <Compile Include="Extensions\IdentityExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -362,6 +364,7 @@
     <Content Include="Content\DataTables\images\sort_desc.png" />
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\Login.css" />
     <Content Include="Content\RegisterUser.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -458,6 +461,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Login.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\RegisterUser.js" />
     <Content Include="Web.config" />
@@ -505,6 +509,7 @@
     <Content Include="Views\Shared\_TableButtonPartial.cshtml" />
     <Content Include="Views\Shared\_EditButtonPartial.cshtml" />
     <Content Include="Views\Shared\_RegisterUserPartial.cshtml" />
+    <Content Include="Views\Shared\_LoginPanelPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
